@@ -73,7 +73,6 @@ server.port=8080 // you can set your own port number
 
 3. Run the application
 You can run it from your IDE or via the command line:
-
 ./mvnw spring-boot:run
 
 
