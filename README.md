@@ -80,11 +80,8 @@ You can run it from your IDE or via the command line:
 
 
 🔐 Admin Panel:
-
 URL: http://localhost:8080/admin/products
-
 Features: Add, Edit, Delete Products
-
 File Upload: Supports image path and upload to /image/ directory
 
 
