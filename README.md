@@ -4,19 +4,19 @@ A simple full-stack e-commerce shopping cart built using **Spring Boot**, **Spri
 
 ---
 
-## 🔧 Features
+##  Features
 
-✅ Product listing for users  
-✅ Add to Cart and Checkout flow  
-✅ Admin Panel for managing products (CRUD)  
-✅ Modular layered architecture (Controller → Service → Repository)  
-✅ Image upload and display support  
-✅ Responsive UI using Bootstrap 5  
-✅ Session-based shopping cart
+1 Product listing for users  
+2 Add to Cart and Checkout flow  
+3 Admin Panel for managing products (CRUD)  
+3 Modular layered architecture (Controller → Service → Repository)  
+4 Image upload and display support  
+5 Responsive UI using Bootstrap 5  
+6 Session-based shopping cart
 
 ---
 
-## 💻 Technologies Used
+## Technologies Used
 
 - Java 17+
 - Spring Boot 3.x
@@ -26,11 +26,10 @@ A simple full-stack e-commerce shopping cart built using **Spring Boot**, **Spri
 - MySQL
 - Bootstrap 5
 - HTML/CSS
-- Git & GitHub
 
 ---
 
-## 🗂️ Project Structure
+## 🗂 Project Structure
 
 src
 ├── main
@@ -53,7 +52,7 @@ src
 
 ---
 
-## ⚙️ Getting Started
+## ⚙ Getting Started
 
 ### 1. Clone the repository
 
@@ -66,10 +65,10 @@ cd E-Commerce_Shopping_Cart
 Update your application.properties:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce_db
-spring.datasource.username=root
+spring.datasource.username=your_username
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
-
+server.port=8080 // you can set your own port number
 
 
 3. Run the application
