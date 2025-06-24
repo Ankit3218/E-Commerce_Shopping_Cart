@@ -36,7 +36,7 @@ public class AdminController {
 
     @PostMapping("/save")
     public String saveProduct(@ModelAttribute Product product) {
-        // Ensure the imagePath has correct /uploads/ prefix
+       
         if (product.getImagePath() != null && !product.getImagePath().startsWith("/image/")) {
             product.setImagePath("/image/" + product.getImagePath());
         }
